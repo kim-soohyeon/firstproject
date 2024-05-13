@@ -1,7 +1,7 @@
 # 프로젝트 세부사항
 - Project: Gradle - Groovy
 - Language: Java
-- Spring Boot: 3.2.4 (기본값 선택)
+- Spring Boot: 3.2.4
 - Packaging: Jar
 - Java: 17
 ---

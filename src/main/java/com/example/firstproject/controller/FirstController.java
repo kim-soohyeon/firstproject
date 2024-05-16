@@ -12,4 +12,10 @@ public class FirstController {
         model.addAttribute("username", "수현");
         return "greetings"; //greetings.mustache 파일 반환
     }
+
+    @GetMapping("/bye")
+    public String seeYouNext(Model model){ // model 객체 받아오기
+        model.addAttribute("username", "수현");
+        return "goodbye"; //greetings.mustache 파일 반환
+    }
 }
